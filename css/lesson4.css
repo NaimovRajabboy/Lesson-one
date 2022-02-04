@@ -1,0 +1,83 @@
+.container{
+    background-color: aquamarine;
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    /*display: flex;-bollalarini yonmayon joylashadi */
+    flex-wrap: wrap;
+    /*flex-wrap: wrap; sigmasa flexda uni pasga joylashtiradi */
+    flex-direction: row;
+    /*flex-direction: row-reverse;- teskari qib beradi*/
+    /*flex-direction: column;*/
+    /*flex-direction: column;- vertikal qib beradi*/
+    /*flex-direction: column-reverse;*/
+    /*flex-direction: column-reverse-vertikal kurinishda teskari;*/
+    justify-content: space-between;
+    /*justify-content: space-around;-ikiyon tamondan jooy qoldiriSHGA KAMRO JOY QOLDIRADI*/
+    /*justify-content: space-between; bollalarini xammasini teng bulib beradi*/
+    /*justify-content: center;- bollarini urtaga qoyadi*/
+    /*justify-content: flex-end;*/
+    /*justify-content: bollalarini joylashuvi ;*/
+    /*VAXT:46:54*/
+
+
+}
+.card{
+    width: 30%;
+    background-color: aqua;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+}
+.card img{
+    width: 100%;
+
+}
+/*.container-float{*/
+/*    width: 80%;*/
+/*    margin: 50px auto;*/
+/*}*/
+/*.container-float .card{*/
+/*    float: left;*/
+/*}*/
+/*.clear-float{*/
+/*    clear: both;*/
+
+/*}*/
+.navbar{
+    background-color: wheat;
+}
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px    auto;
+    align-items: center;
+    /*align-items: center;- display flexni bergan bollalarini vertikal ishlatish
+    .*/
+    padding: 10px 0;
+    box-sizing: border-box;
+
+
+}
+.wrap img{
+    width: 80px;
+    height: 50px;
+}
+.wrap  ul li{
+    display: inline-block;
+}
+.wrap ul li a{
+    color: black;
+    text-decoration:none    ;
+    /*text-decoration: line-through ustidan;*/
+    /*text-decoration: none;*/
+    /*text-decoration: overline;*/
+    /*text-decoration: underline;*/
+    font-size: 20px;
+margin: 0 15px;
+
+
+
+}

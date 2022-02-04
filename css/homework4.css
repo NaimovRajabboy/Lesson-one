@@ -1,0 +1,62 @@
+.bigdive {
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+    margin: auto;
+
+}
+hr{
+    width: 70%;
+    margin: auto;
+color: #A6A8A7;
+    background-color:green;
+}
+.photo{
+    width: 30%;
+    padding: 10px 0px 20px 0px;
+    box-sizing: border-box;
+}
+.card{
+padding: 0 20px;
+    font-size: 10px;
+
+}
+.card img{
+    width: 10px;
+    height: 10px;
+
+}
+.zont{text-align: left;color: darkred;
+    font-size: 25px;
+    display: flex;
+    align-items: center ;
+
+    /*align-items: center-displey flaxsdan keyin ishlaydi xammasini bir qatorga beradi;*/
+}
+.zont p{
+    font-size: 15px;
+    color: #A6A8A7;
+    margin:0px 5px;
+
+}
+.TELESH{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    background-color: white;
+    width: 100px ;
+    height: 20px;
+ margin-right: 20px;
+    
+
+}
+.TELESH img{
+    margin: 3px;
+}
+.just{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*align-items: center-yozlgan barcha narsani urtaga chiqadari;*/
+}
